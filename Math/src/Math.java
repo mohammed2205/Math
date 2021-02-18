@@ -6,21 +6,30 @@ public class Math {
 	
 		Scanner input = new Scanner(System.in);
 		
-		 System.out.println("use int then double for +");
-		 System.out.println("use int then int for -");
-		 System.out.println("use double then double for *");
-		 System.out.println("use double  then int for /");
+		 System.out.println("num+num");
+		 double x =input.nextDouble();
+		 double z =input.nextDouble();
 		 
-		double x =input.nextDouble();
-		double z =input.nextDouble();
-		 Math( x ,z );
+		 System.out.println("num-num");
+		 double a =input.nextDouble();
+		 double s =input.nextDouble();
+		 System.out.println("num*num");
+		 double c =input.nextDouble();
+		 double v =input.nextDouble();
+		 System.out.println("num/num");
+		 double n =input.nextDouble();
+		 double m =input.nextDouble();
+		 
+		
+		 Math(x, z);
+		 Math(a ,s );
+		 Math(c,v );
 		 Math(x ,z );
-		 Math(x ,z );
-		 Math(x ,z );
-		 Math (x ,z);
+		 Math (n,m);
 		
 	}
 public static double  Math (int  a, double b) {
+	
 	
 	 System.out.println(a+b);
 	return a+b;
